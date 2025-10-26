@@ -32,7 +32,7 @@ Returns `{number}` in the range `[0, 1]`.
 
 ## Purpose
 
-I originally wrote this as a way to give platforms a "sweep and loiter" effect in my 2d platformer engine. I've since found other uses for it in things like day/night cycles and generic motion tweening, so I split it into its own lib.
+I originally wrote this for a game. I used it to give moving platforms a "sweep and loiter" effect in my 2d platformer engine. I've since found other uses for it in things like day/night cycles and generic motion tweening, so I split it into its own lib.
 
 # 🍻 Licensed under the Apache License, Version 2.0
 
