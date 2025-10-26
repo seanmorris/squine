@@ -10,7 +10,7 @@ export const squine = (x, r = 0) => {
 	const c = b ** 3 + 4;
 
 	// Approximate an uneven square wave,
-	// /average it with its phase-shifted inverse,
+	// average it with its phase-shifted inverse,
 	// then normalize the maxima to 1.
 	const i = halfSquine(-0.25 + x, b, c);
 	const j = -halfSquine(0.25 + x, b, c);
