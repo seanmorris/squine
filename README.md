@@ -2,7 +2,7 @@
 
 A function with a smooth transition between a sine wave approximation and a square wave approximation.
 
-<center><img height = "200px" src = "examples/squine-graph.svg"></center>
+<center><img height = "200px" src = "https://raw.githubusercontent.com/seanmorris/squine/refs/heads/master/examples/squine-graph.svg"></center>
 
 ## Installation
 
