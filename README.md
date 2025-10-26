@@ -3,8 +3,8 @@
 A function with a smooth transition between a sine wave approximation and a square wave approximation.
 
 <center>
-    <img height = "200px" src = "https://raw.githubusercontent.com/seanmorris/squine/refs/heads/master/examples/squine-graph.svg">
-    Graph the function on <a href = "https://www.desmos.com/calculator/jhfa0bexv8">Desmos</a>.
+	<img height = "200px" src = "https://raw.githubusercontent.com/seanmorris/squine/refs/heads/master/examples/squine-graph.svg">
+	Graph the function on <a href = "https://www.desmos.com/calculator/tjdm5bp0tv">Desmos</a>.
 </center>
 
 
