@@ -1,0 +1,19 @@
+{
+  "name": "squine",
+  "version": "1.0.0",
+  "description": "A function with a smooth transition between a sine wave approximation and a square wave approximation.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:graph": "node scripts/generate-graph.mjs"
+  },
+  "keywords": [
+    "square",
+    "sine",
+    "wave",
+    "math"
+  ],
+  "author": "Sean Morris",
+  "license": "Apache-2.0"
+}
