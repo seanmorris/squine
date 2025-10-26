@@ -1,6 +1,6 @@
 {
   "name": "squine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function with a smooth transition between a sine wave approximation and a square wave approximation.",
   "type": "module",
   "main": "index.js",
