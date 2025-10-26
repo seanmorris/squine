@@ -10,7 +10,7 @@ const plotWidth = width - 2 * margin;
 const plotHeight = height - 2 * margin;
 
 const maxX = 2;
-const rs = [0, 0.65, 0.85, 0.95, 1];
+const rs = [0, 0.3, 0.5, 0.7, 1];
 const colors = ['orange', 'green', 'steelblue', 'blue', 'purple'];
 
 
