@@ -10,8 +10,8 @@ const plotWidth = width - 2 * margin;
 const plotHeight = height - 2 * margin;
 
 const maxX = 2;
-const rs = [0, 0.65, 0.85, 1];
-const colors = ['orange', 'green', 'steelblue', 'purple'];
+const rs = [0, 0.65, 0.85, 0.95, 1];
+const colors = ['orange', 'green', 'steelblue', 'blue', 'purple'];
 
 
 const gridLines = [];
@@ -46,7 +46,7 @@ const paths = rs.map((r, idx) => {
     const y = margin + (1 - yVal) * plotHeight;
     d += `${i === 0 ? 'M' : 'L'}${x.toFixed(2)},${y.toFixed(2)}`;
   }
-  return `<path d="${d}" fill="none" stroke="${colors[idx]}" stroke-width="1"/>`;
+  return `<path d="${d}" fill="none" stroke="${colors[idx]}" stroke-width="1.25"/>`;
 });
 
 const svg =

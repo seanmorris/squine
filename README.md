@@ -16,7 +16,7 @@ npm install squine
 import { squine } from 'squine';
 
 // x: Input phase (e.g., between 0 and 1).
-// r: Transition factor (0 = square wave, 1 = sine wave). Default is 0.
+// r: Roundness factor (0 = square wave, 1 = sine wave). Default is 0.
 const value = squine(0.25, 0.5);
 console.log(value);
 ```
@@ -26,7 +26,7 @@ console.log(value);
 ### `squine(x, r = 0)`
 
 - `x` {number}: Input value representing the wave phase.
-- `r` {number} [optional]: Transition factor between square (0) and sine (1) wave approximations.
+- `r` {number} [optional]: Roundness factor. 0 = square approximation, 1 = sine approximation, 0.5 = something in between.
 
 Returns `{number}` in the range `[0, 1]`.
 
