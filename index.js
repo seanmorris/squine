@@ -1,16 +1,16 @@
-const pi = Math.PI;
-const qpi = pi/4;
+const {min, max, sin, cos, abs, PI} = Math;
+const qpi = PI/4;
 
 // not-entirely-even square wave approximation
-const halfSquine = (x, b, c) => Math.cos( Math.abs(Math.sin(qpi + x*pi)) ** (1 + b) ) ** c;
+const halfSquine = (x, b, c) => cos( abs(sin(qpi + x*PI)) ** (1 + b) ) ** c;
 
 export const squine = (x, r = 0) => {
-	r = Math.min(1, Math.max(0, r));
+	r = min(1, max(0, r));
 	const b = 10 * (1 - r);
 	const c = b ** 3 + 4;
 
-	// Approximate an uneven square wave and average
-	// it with its phase-shifted inverse
+	// Approximate an uneven square wave,
+	// /average it with its phase-shifted inverse,
 	// then normalize the maxima to 1.
 	const i = halfSquine(-0.25 + x, b, c);
 	const j = -halfSquine(0.25 + x, b, c);
