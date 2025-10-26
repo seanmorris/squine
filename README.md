@@ -2,9 +2,7 @@
 
 A function with a smooth transition between a sine wave approximation and a square wave approximation.
 
-<center>
-    <img height = "200px" src = "examples/squine-graph.svg">
-</center>
+<center><img height = "200px" src = "examples/squine-graph.svg"></center>
 
 ## Installation
 
@@ -31,6 +29,10 @@ console.log(value);
 - `r` {number} [optional]: Transition factor between square (0) and sine (1) wave approximations.
 
 Returns `{number}` in the range `[0, 1]`.
+
+## Purpose
+
+I originally wrote this as a way to give platforms a "sweep and loiter" effect in my 2d platformer engine. I've since found other uses for it in things like day/night cycles and generic motion tweening, so I split it into its own lib.
 
 # 🍻 Licensed under the Apache License, Version 2.0
 
