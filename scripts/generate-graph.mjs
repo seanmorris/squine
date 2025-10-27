@@ -18,13 +18,13 @@ const gridLines = [];
 for (let gx = 0; gx <= maxX; gx +=0.125) {
   const x = margin + (gx / maxX) * plotWidth;
   gridLines.push(
-    `<line x1="${x}" y1="${margin}" x2="${x}" y2="${height - margin}" stroke="#8883" stroke-width="1"/>`
+    `<line x1="${x}" y1="${margin}" x2="${x}" y2="${height - margin}" stroke="#8888" stroke-width="${x%0.5 ? 0.5 : 1.5}"/>`
   );
 }
 for (let gy = 0; gy <= 1; gy += 0.25) {
   const y = margin + (1 - gy) * plotHeight;
   gridLines.push(
-    `<line x1="${margin}" y1="${y}" x2="${width - margin}" y2="${y}" stroke="#8883" stroke-width="1"/>`
+    `<line x1="${margin}" y1="${y}" x2="${width - margin}" y2="${y}" stroke="#8888" stroke-width="${y%0.5 ? 0.5 : 1.5}"/>`
   );
 }
 
