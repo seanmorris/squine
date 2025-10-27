@@ -1,4 +1,4 @@
-const {min, max, sin, cos, abs, PI, log10} = Math;
+const {min, max, sin, cos, abs, PI} = Math;
 const qpi = PI/4;
 
 // not-entirely-symmetrical square wave approximation
