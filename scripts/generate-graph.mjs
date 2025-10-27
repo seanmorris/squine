@@ -24,7 +24,7 @@ for (let gx = 0; gx <= maxX; gx +=0.125) {
 for (let gy = 0; gy <= 1; gy += 0.25) {
   const y = margin + (1 - gy) * plotHeight;
   gridLines.push(
-    `<line x1="${margin}" y1="${y}" x2="${width - margin}" y2="${y}" stroke="#8886" stroke-width="${y%0.5 ? 0.5 : 1.25}"/>`
+    `<line x1="${margin}" y1="${y}" x2="${width - margin}" y2="${y}" stroke="#8886" stroke-width="${y%2 ? 0.5 : 1.25}"/>`
   );
 }
 
